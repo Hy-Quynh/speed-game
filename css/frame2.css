@@ -1,0 +1,71 @@
+.frame2 {
+    background: url('../image/background2.png');
+    /* max-width: 1920px; */
+    min-height: 1080px;
+    position: relative;
+    padding-bottom: 108px;
+}
+
+.frame2 .flat-frame {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 73px
+}
+
+.frame2 .flat-frame .flat-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    margin-left: 14px;
+}
+
+@media screen and (max-width: 575px) {
+    .frame2 .flat-frame .flat-text {
+        font-size: 32px;
+    }
+}
+
+.frame2 .car-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+.frame2 .car-group .car-frame{
+    margin-top: 38px;
+}
+
+.frame2 .car-frame-button{
+    text-align: center;
+}
+
+.frame2 .car-frame-button button {
+    background-image: url('../image/button1.png');
+    width: 215px;
+    height: 65px;
+    border: transparent;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 575px) {
+    .frame2 .car-frame-image img{
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .frame2 .car-group .car-frame{
+        margin-left: 118px;
+    }
+}

@@ -1,0 +1,108 @@
+.frame3 .frame-top {
+    background: url('../image/background3.png');
+    /* max-width: 1920px; */
+    height: 205px;
+}
+
+.frame3 .frame-bottom {
+    background-image: linear-gradient(to bottom, rgba(290,203,130,0),rgba(251,203,130,1), rgba(251,203,130,1),rgba(251,203,130,1),rgba(251,203,130,1), rgba(251,203,130,1), rgba(251,203,130,1),rgba(251,203,130,1));
+    /* max-width: 1920px; */
+    min-height: 410px;
+    padding-bottom: 422px;
+    margin-top: -100px;
+}
+
+.frame3 .frame-bottom .flat-frame {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 140px
+}
+
+
+.frame3 .frame-bottom .flat-frame .flat-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    margin-left: 14px;
+}
+
+@media screen and (max-width: 575px) {
+    .frame3 .frame-bottom .flat-frame .flat-text {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .frame3 .frame-bottom .flat-frame .flat-text {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .frame3 .frame-bottom .flat-frame .flat-text {
+        font-size: 52px;
+    }
+}
+
+.frame3 .frame-bottom .button-frame {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+   
+}
+
+.frame3 .frame-bottom .button-frame .button1 {
+    background: url('../image/verichains.png');
+    width: 314px;
+    height: 96px;
+    margin-top: 135px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.frame3 .frame-bottom .button-frame .button2 {
+    background: url('../image/coinmarketcap-vector-logo.png');
+    width: 314px;
+    height: 96px;
+    margin-top: 135px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.frame3 .frame-bottom .button-frame .button3 {
+    background: url('../image/coingecko-logo-vector.png');
+    width: 314px;
+    height: 96px;
+    margin-top: 135px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+@media screen and (max-width: 576px) {
+    .frame3 .frame-bottom .button-frame .button2 {
+        margin-left: unset;
+        margin-right: unset;
+    }
+    .frame3 .frame-bottom .button-frame .button1 {
+        margin-left: unset;
+        margin-right: unset;
+    }
+    .frame3 .frame-bottom .button-frame .button3 {
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
